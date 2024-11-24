@@ -1,7 +1,6 @@
 ﻿@model Expenses_Analyzer.Models.Category
-
 @{
-    ViewData["Title"] = "Create";
+    ViewData["PageTitle"] = Model.CategoryId == 0 ? "Create a new category" : "Edit category";
 }
   
 <div class="row">
