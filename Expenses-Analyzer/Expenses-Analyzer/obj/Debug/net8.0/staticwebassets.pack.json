@@ -245,6 +245,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "E:\\My Project 2\\Expenses-Analyzer\\Expenses-Analyzer\\Expenses-Analyzer\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
       "Id": "E:\\My Project 2\\Expenses-Analyzer\\Expenses-Analyzer\\Expenses-Analyzer\\wwwroot\\profile.png",
       "PackagePath": "staticwebassets\\profile.png"
     },
