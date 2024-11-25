@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5zwHVXefwmIrMsQEcdVzzWAezSBcdRpWqxUvREcM4qo=",
+  "Hash": "I766HGo4RPA7NWDCerSOIBenD1MpoceTKIAMaO11c38=",
   "Source": "Expenses-Analyzer",
   "BasePath": "_content/Expenses-Analyzer",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "E:\\My Project 2\\Expenses-Analyzer\\Expenses-Analyzer\\Expenses-Analyzer\\wwwroot\\profile.png",
+      "SourceId": "Expenses-Analyzer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\My Project 2\\Expenses-Analyzer\\Expenses-Analyzer\\Expenses-Analyzer\\wwwroot\\",
+      "BasePath": "_content/Expenses-Analyzer",
+      "RelativePath": "profile.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile.png"
     }
   ]
 }
