@@ -10,7 +10,7 @@ namespace Expenses_Analyzer.Models
 
         [Range(1, int.MaxValue,ErrorMessage = "Please select a category.")]
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
 
         [Range(1, int.MaxValue, ErrorMessage = "Amount should be greater than 0.")]
         public int Amount { get; set; }

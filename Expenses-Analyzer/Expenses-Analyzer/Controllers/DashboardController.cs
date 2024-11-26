@@ -30,13 +30,13 @@ namespace Expenses_Analyzer.Controllers
             int TotalIncome = SelectedTransactions
                 .Where(i => i.Category.Type == "Income")
                 .Sum(J => J.Amount);
-            ViewBag.TotalIncome = TotalIncome.ToString("C0");
+            ViewBag.TotalIncome = TotalIncome.ToString("c0");
 
             //Total Expense
             int TotalExpense = SelectedTransactions
                 .Where(i => i.Category.Type == "Expense")
                 .Sum(J => J.Amount);
-            ViewBag.TotalIncome = TotalIncome.ToString("C0");
+            ViewBag.TotalExpense = TotalExpense.ToString("c0");
 
             //Total Income
             int Balance = TotalIncome - TotalExpense;
